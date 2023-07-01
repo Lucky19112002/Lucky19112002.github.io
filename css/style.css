@@ -172,3 +172,49 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+.services h2{
+    margin-bottom: 5rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .service-box {
+    flex: 1 1 30rem;
+    background: #80777a;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--main-color);
+    transition: .5s ease;
+}
+
+.services-container .service-box:hover  {
+    border-color: rgb(230, 69, 5);
+    transform: scale(1.02);
+    box-shadow: 0 0 1rem rgb(206, 241, 6) ;
+}
+
+.service-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services-container .service-box:hover i {
+    color: rgb(206, 241, 6) ;
+}
+
+.service-box h3 {
+    font-size: 2.6rem;
+}
+
+.service-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
