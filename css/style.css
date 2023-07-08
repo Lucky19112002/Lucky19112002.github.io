@@ -432,8 +432,10 @@ input::placeholder {
         top: 100%;
         left: 0;
         width: 100%;
-        padding:  1 rem 3%;
+        padding:  1rem 3%;
         background: var(--bg-color) ;
+        border: #25a819 solid;
+        border-radius: 5rem;
         border-top: .1rem solid rgba(0, 0, 0, 0.2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
         display: none;
