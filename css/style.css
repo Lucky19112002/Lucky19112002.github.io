@@ -250,14 +250,12 @@ span {
     transition: transform 0.3s ease;
   }
   
-  .proj-layout:hover {
-    transform: scale(1.05);
-  }
+
   
 .list1 {
     width: 80rem;
     height: 10rem ;
-    padding: 10px;
+    
     margin: 0;
     border-style: solid;
     border-radius: 4rem;
@@ -286,6 +284,57 @@ span {
     display: inline-block;
     white-space: nowrap;
 }
+
+.badge-table img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .badge-table img:hover {
+    transform: scale(1.1);
+    border: 2px solid var(--main-color);
+  }
+  
+  /* Optional: Style the marquee behavior */
+  .badge-table marquee[behavior="scroll"] {
+    scroll-behavior: smooth;
+  }
+  
+  .badge-table marquee[behavior="scroll"]:hover {
+    scroll-behavior: auto;
+  }
+  
+  /* Optional: Style the links within the marquee */
+  .badge-table marquee a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .badge-table marquee a:hover {
+    opacity: 1;
+  }
+  .badge-table {
+    padding: 3rem 2rem 4rem;
+  }
+  .badge-table marquee a {
+    margin-right: 10px;
+  }
+  
+  .badge-table table {
+    margin-top: 10px;
+  }
+  
+  .badge-table td {
+    padding: 10px;
+  }  
 
 .contact h2{
     margin-bottom: 3rem ;
