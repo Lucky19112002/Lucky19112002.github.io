@@ -53,8 +53,12 @@ ScrollReveal().reveal('.home-content p , .about-content', { origin: 'right' });
 /*==================== typed js ====================*/
 
 const typed = new Typed('.multiple-text',{
-    strings: ['Ethical Hacking','Penetration Tester','Front-End Developer','Software Engineer','Web Penetration Tester','IoT Develope','Shell Script Developer','Python Automation Engineer','Python CLI Developer','Junior Android Develope','Linux System Administrator','Kali Linux Specialist','Database Administrator','Rapid Learning Specialist'],
-    typeSpeed :100,
+    strings: [
+  "React Native Developer",
+  "Mobile App Engineer",
+  "ERP Mobile App Specialist",
+  "BLE Integration Developer"
+]typeSpeed :100,
     backSpeed :100,
     backDelay :10,
     loop : true
